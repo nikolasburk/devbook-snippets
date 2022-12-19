@@ -13,4 +13,4 @@ const user = await prisma.user.findFirst({
   }
 })
 
-console.log({ user })
+console.log(user)

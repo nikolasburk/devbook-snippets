@@ -13,4 +13,4 @@ const user = await prisma.user.findUniqueOrThrow({
   }
 })
 
-console.log({ user })
+console.log(user)

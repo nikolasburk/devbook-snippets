@@ -4,4 +4,4 @@ const prisma = new PrismaClient()
 
 const allUsers = await prisma.user.findMany()
 
-console.log({ allUsers });
+console.log(allUsers);

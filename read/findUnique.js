@@ -9,4 +9,4 @@ const user = await prisma.user.findUnique({
   }
 })
 
-console.log({ user })
+console.log(user)
