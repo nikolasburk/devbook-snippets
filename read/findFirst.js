@@ -9,7 +9,7 @@ const user = await prisma.user.findFirst({
     /** 
      * Feel free to uncomment the line below the comment to add more filters to your query 
     */
-    // email: "alice@prisma.io",
+    // email: "nilu@prisma.io",
   }
 })
 
