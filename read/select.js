@@ -3,7 +3,7 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient()
 
 // Hover on the `user` variable to tell the type of the returned data
-const user = await prisma.user.findMany({
+const users = await prisma.user.findMany({
   select: {
     name: true,
     age: true,
@@ -17,4 +17,4 @@ const user = await prisma.user.findMany({
   }
 })
 
-console.log({ user })
+console.log({ users })
