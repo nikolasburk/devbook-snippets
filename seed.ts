@@ -27,6 +27,7 @@ async function main() {
           },
           {
             title: "How Prisma Makes Frontend Developers Fullstack",
+            published: true,
             categories: {
               create: {
                 name: "Tech",
@@ -54,6 +55,7 @@ async function main() {
           {
             title:
               "What it feels like to work in a company with 5 people called Alex",
+            published: true,
             categories: {
               connect: {
                 id: 1,
@@ -62,6 +64,7 @@ async function main() {
           },
           {
             title: "Deep Dive into Prisma Migrate 1/5",
+            published: true,
             categories: {
               connect: {
                 id: 2,
@@ -70,6 +73,7 @@ async function main() {
           },
           {
             title: "Deep Dive into Prisma Migrate 2/5",
+            published: true,
             categories: {
               connect: {
                 id: 2,
@@ -78,6 +82,7 @@ async function main() {
           },
           {
             title: "Deep Dive into Prisma Migrate 3/5",
+            published: true,
             categories: {
               connect: {
                 id: 2,
@@ -129,6 +134,7 @@ async function main() {
       posts: {
         create: [{
           title: "How Computers Work",
+          published: true,
           categories: {
             connect: {
               id: 2
